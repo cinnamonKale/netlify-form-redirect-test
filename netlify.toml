@@ -2,3 +2,4 @@
   from = "/test"
   to = "/#test"
   status = 301
+  force=true
