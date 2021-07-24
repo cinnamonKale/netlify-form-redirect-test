@@ -8,14 +8,14 @@
 </head>
 <body>
   <p>This form submits correctly</p>
-  <form name="contact-1" action="/?submission=true#test" method="POST"
+  <form name="contact-1" action="/#test" method="POST"
   data-netlify="true">
     <input type="text" name="name">
     <input type="submit" value="Submit">
   </form>
 
   <p>This form doesn't</p>
-  <form name="contact-2" action="/test?submission=true" method="POST"
+  <form name="contact-2" action="/test" method="POST"
   data-netlify="true">
     <input type="text" name="name">
     <input type="submit" value="Submit">
